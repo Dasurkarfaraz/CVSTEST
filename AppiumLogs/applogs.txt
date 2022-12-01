@@ -1,0 +1,149 @@
+2022-11-30 13:06:32:901 [Appium] Welcome to Appium v1.22.3
+2022-11-30 13:06:32:907 [Appium] Non-default server args:
+2022-11-30 13:06:32:909 [Appium]   address: 127.0.0.1
+2022-11-30 13:06:32:909 [Appium]   logFile: C:\Users\faraz\eclipse-workspace\CVSTEST\AppiumLogs\applogs.txt
+2022-11-30 13:06:32:910 [Appium]   loglevel: info
+2022-11-30 13:06:32:962 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2022-11-30 13:06:33:238 [HTTP] --> GET /wd/hub/status
+2022-11-30 13:06:33:239 [HTTP] {}
+2022-11-30 13:06:33:251 [HTTP] <-- GET /wd/hub/status 200 10 ms - 68
+2022-11-30 13:06:33:253 [HTTP] 
+2022-11-30 13:06:34:508 [HTTP] --> POST /wd/hub/session
+2022-11-30 13:06:34:509 [HTTP] {"desiredCapabilities":{"appActivity":"in.org.vidyalaya.android.activities.SplashActivity","appPackage":"in.org.vidyalaya.android","platformName":"Android","deviceName":"Faraz Dasurkar","platformVersion":"12"},"capabilities":{"firstMatch":[{"appium:appActivity":"in.org.vidyalaya.android.activities.SplashActivity","appium:appPackage":"in.org.vidyalaya.android","appium:deviceName":"Faraz Dasurkar","platformName":"android","appium:platformVersion":"12"}]}}
+2022-11-30 13:06:34:526 [Appium] 
+2022-11-30 13:06:34:526 [Appium] ======================================================================
+2022-11-30 13:06:34:526 [Appium]   DEPRECATION WARNING:
+2022-11-30 13:06:34:527 [Appium] 
+2022-11-30 13:06:34:527 [Appium]   The 'automationName' capability was not provided in the desired 
+2022-11-30 13:06:34:527 [Appium]   capabilities for this Android session
+2022-11-30 13:06:34:528 [Appium] 
+2022-11-30 13:06:34:528 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2022-11-30 13:06:34:528 [Appium]   UiAutomator2 Driver
+2022-11-30 13:06:34:529 [Appium] 
+2022-11-30 13:06:34:530 [Appium]   The next major version of Appium (2.x) will **require** the 
+2022-11-30 13:06:34:530 [Appium]   'automationName' capability to be set for all sessions on all 
+2022-11-30 13:06:34:530 [Appium]   platforms
+2022-11-30 13:06:34:530 [Appium] 
+2022-11-30 13:06:34:531 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2022-11-30 13:06:34:531 [Appium]   'automationName=UiAutomator1'
+2022-11-30 13:06:34:531 [Appium] 
+2022-11-30 13:06:34:532 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2022-11-30 13:06:34:532 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2022-11-30 13:06:34:532 [Appium] 
+2022-11-30 13:06:34:532 [Appium]   For more information about drivers, please visit 
+2022-11-30 13:06:34:533 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2022-11-30 13:06:34:533 [Appium]   'Drivers' menu
+2022-11-30 13:06:34:533 [Appium] 
+2022-11-30 13:06:34:533 [Appium] ======================================================================
+2022-11-30 13:06:34:534 [Appium] 
+2022-11-30 13:06:35:506 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-11-30 13:06:35:531 [BaseDriver] Session created with session id: 944d5b10-c1ce-4577-848f-bb4f3680bf3d
+2022-11-30 13:06:35:532 [UiAutomator2] Starting 'in.org.vidyalaya.android' directly on the device
+2022-11-30 13:06:35:557 [ADB] Found 1 'build-tools' folders under 'C:\Users\faraz\AppData\Local\Android\Sdk' (newest first):
+2022-11-30 13:06:35:558 [ADB]     C:/Users/faraz/AppData/Local/Android/Sdk/build-tools/33.0.0
+2022-11-30 13:06:35:559 [ADB] Using 'adb.exe' from 'C:\Users\faraz\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-11-30 13:06:35:632 [AndroidDriver] Retrieving device list
+2022-11-30 13:06:35:728 [AndroidDriver] Looking for a device with Android '12.0.0'
+2022-11-30 13:06:35:729 [ADB] Getting device platform version
+2022-11-30 13:06:35:915 [AndroidDriver] Using device: 192.168.1.121:5555
+2022-11-30 13:06:35:918 [ADB] Using 'adb.exe' from 'C:\Users\faraz\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-11-30 13:06:36:135 [ADB] Getting device platform version
+2022-11-30 13:06:36:260 [UiAutomator2] Relaxing hidden api policy
+2022-11-30 13:06:36:636 [AndroidDriver] No app sent in, not parsing package/activity
+2022-11-30 13:06:37:426 [ADB] The application at 'C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2022-11-30 13:06:58:361 [ADB] The application at 'C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2022-11-30 13:07:12:110 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-11-30 13:07:12:677 [HTTP] <-- POST /wd/hub/session 500 38167 ms - 1737
+2022-11-30 13:07:12:678 [HTTP] 
+2022-11-30 13:17:50:282 [HTTP] --> GET /wd/hub/status
+2022-11-30 13:17:50:284 [HTTP] {}
+2022-11-30 13:17:50:377 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at Socket.Writable.write (node:internal/streams/writable:336:10)
+    at Console.log (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2022-11-30 13:17:50:416 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at Socket.Writable.write (node:internal/streams/writable:336:10)
+    at Console.log (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2022-11-30 13:17:50:421 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at Socket.Writable.write (node:internal/streams/writable:336:10)
+    at Console.log (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2022-11-30 13:17:50:425 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at Socket.Writable.write (node:internal/streams/writable:336:10)
+    at Console.log (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
+2022-11-30 13:17:50:434 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:55:25)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at Socket.Writable.write (node:internal/streams/writable:336:10)
+    at Console.log (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\faraz\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
